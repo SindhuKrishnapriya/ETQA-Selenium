@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Project/ETAQ-Selenium/src/test/java/test/CalculateRetirementTest.java">
+        <classes>
+            <class name="test.CalculateRetirementTest">
+                <methods>
+                    <include name="submitFormWithALllFields"/>
+                    <include name="submitFormWithMandatoryFields"/>
+                    <include name="validateSocialToogleFeature"/>
+                    <include name="updateDefaultCalculator"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
